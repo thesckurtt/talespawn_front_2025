@@ -5,10 +5,46 @@
   font-weight: 400;
   font-style: normal;
 }
+.top-20{
+  position: relative;
+  top: 20px;
+}
+.logo-xl{
+  position: relative;
+  max-width: 200px;
+}
+.logo-xl > img{
+  position: relative;
+  width: 100%;
+}
+
+.left-border{
+  border-left: 4px solid #0412215e;
+}
+
+.right-border{
+  border-right: 4px solid #0412215e;
+}
 
 .main-site-home{
   background-image: url('../img/bg-home.png');
   background-size: cover;
+}
+.main-site-register{
+  background-image: url('../img/bg-register.png');
+  background-size: cover;
+  background-position: bottom;
+  display: grid;
+  grid-template-rows: 1fr 4fr 1fr;
+  grid-template-columns: auto;
+}
+.main-site-register-top{
+  /* background-color: #BD7E0D; */
+}
+
+.main-site-register-middle{
+  display: grid;
+  grid-template-columns: 2fr 4fr 2fr;
 }
 
 .btn-rpg{
