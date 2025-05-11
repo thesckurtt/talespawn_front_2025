@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+
+.aclonica-regular {
+  font-family: "Aclonica", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.main-site-home{
+  background-image: url('../img/bg-home.png');
+  background-size: cover;
+}
+
+.btn-rpg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 47px;
+  min-width: 315px;
+  text-decoration: none;
+  color: #FAE974;
+  background-color: #BD7E0D;
+  border-radius: 8px;
+  text-align: center;
+  border-bottom: 5px solid #694C1D;
+}
