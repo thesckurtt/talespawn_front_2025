@@ -1,36 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
 
+* {
+  box-sizing: border-box;
+}
+
 .aclonica-regular {
   font-family: "Aclonica", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
-.top-20{
+
+.top-20 {
   position: relative;
   top: 20px;
 }
-.logo-xl{
+
+.rpg-text-title {
+  font-family: "Aclonica", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #D39617;
+}
+
+.logo-xl {
   position: relative;
   max-width: 200px;
 }
-.logo-xl > img{
+
+.logo-xl>img {
   position: relative;
   width: 100%;
 }
 
-.left-border{
+.left-border {
   border-left: 4px solid #0412215e;
 }
 
-.right-border{
+.right-border {
   border-right: 4px solid #0412215e;
 }
 
-.main-site-home{
+.main-site-home {
   background-image: url('../img/bg-home.png');
   background-size: cover;
 }
-.main-site-register{
+
+.main-site-register {
   background-image: url('../img/bg-register.png');
   background-size: cover;
   background-position: bottom;
@@ -38,16 +53,17 @@
   grid-template-rows: 1fr 4fr 1fr;
   grid-template-columns: auto;
 }
-.main-site-register-top{
+
+.main-site-register-top {
   /* background-color: #BD7E0D; */
 }
 
-.main-site-register-middle{
+.main-site-register-middle {
   display: grid;
   grid-template-columns: 2fr 4fr 2fr;
 }
 
-.btn-rpg{
+.btn-rpg {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -62,4 +78,43 @@
   font-family: "Aclonica", sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+.inpt-rpg:focus {
+  outline: none;
+}
+
+.inpt-rpg {
+  background-color: #f7f7f716;
+  border: 2px solid #BD7E0D;
+  border-radius: 12px;
+  min-height: 42px;
+  min-width: 215px;
+  color: #D39617d7;
+  font-family: "Aclonica", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 3px 10px;
+}
+
+.label-rpg {
+  font-family: "Aclonica", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #D39617;
+}
+
+.progress-container {
+  display: flex;
+  gap: 5px;
+}
+
+.pc-dot {
+  width: 15px;
+  height: 15px;
+  background-color: #8d8d8d;
+  border-radius: 100%;
+}
+.full{
+  background-color: #D39617 !important;
 }
